@@ -27,13 +27,13 @@
    NSString *type1=[[NSString alloc]init];
    type1=[bill type];
   
-   if([type1 isEqualToString:@"finished"])
+   if([type1 isEqualToString:@"grocery"])
    {
        [self calculateVat];
        totalAmount=amount+totalTax;
        [self print];
    }
-   else if([type1 isEqualToString:@"grocery"])
+   else if([type1 isEqualToString:@"finished"])
    {
       [self calculateKst]; 
       [self calculateCst];
