@@ -18,11 +18,11 @@ int main(int argc, const char* argv[])
    int str_num;
    
     //Accepting user input
-   printf("FIRST ENTRY--Enter the name: ");
+   NSLog(@"FIRST ENTRY--Enter the name: ");
    scanf("%s",str_name);
-   printf("FIRST ENTRY--Enter the email ID: ");
+   NSLog(@"FIRST ENTRY--Enter the email ID: ");
    scanf("%s",str_email);
-   printf("FIRST ENTRY--Enter the number:(9 digits only) ");
+   NSLog(@"FIRST ENTRY--Enter the number:(9 digits only) ");
    scanf("%d",&str_num);
    
    NSString *name1 = [NSString stringWithUTF8String:str_name];
@@ -35,11 +35,11 @@ int main(int argc, const char* argv[])
    [book addEntry:card1]; //Adding Entry to the phonebook object
 	
    
-   printf("SECOND ENTRY--Enter the name: ");
+   NSLog(@"SECOND ENTRY--Enter the name: ");
    scanf("%s",str_name);
-   printf("SECOND ENTRY--Enter the email ID: ");
+   NSLog(@"SECOND ENTRY--Enter the email ID: ");
    scanf("%s",str_email);
-   printf("SECOND ENTRY--Enter the number:(9 digits only) ");
+   NSLog(@"SECOND ENTRY--Enter the number:(9 digits only) ");
    scanf("%d",&str_num);
    
    NSString *name2 = [NSString stringWithUTF8String:str_name];
@@ -50,11 +50,11 @@ int main(int argc, const char* argv[])
 	[card2 setNum:str_num];
    [book addEntry:card2];//Adding Entry to the phonebook object
 	
-	printf("THIRD ENTRY--Enter the name: ");
+	NSLog(@"THIRD ENTRY--Enter the name: ");
    scanf("%s",str_name);
-   printf("THIRD ENTRY--Enter the email ID: ");
+   NSLog(@"THIRD ENTRY--Enter the email ID: ");
    scanf("%s",str_email);
-   printf("THIRD ENTRY--Enter the number:(9 digits only) ");
+   NSLog(@"THIRD ENTRY--Enter the number:(9 digits only) ");
    scanf("%d",&str_num);
    
    NSString *name3 = [NSString stringWithUTF8String:str_name];

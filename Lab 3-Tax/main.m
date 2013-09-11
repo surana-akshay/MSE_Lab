@@ -8,9 +8,9 @@ int main()
    Bill *bill = [[Bill alloc]init];
    float amount ;
    char str[256];
-   printf("Enter the type of bill(finished/grocery): ");
+   NSLog(@"Enter the type of bill(finished/grocery): ");
    scanf("%s",str);
-   printf("Enter the amount: ");
+   NSLog(@"Enter the amount: ");
    scanf("%f",&amount);
    
    NSString *type = [NSString stringWithUTF8String:str];
